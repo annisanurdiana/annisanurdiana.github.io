@@ -1,0 +1,127 @@
+.header1 {
+    color: #f1f1f1;
+    background-color: rgba(5, 5, 5, 0.973);
+    position: relative;
+}
+  
+.content {
+    padding: 16px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 10px;
+}
+
+.header1 a.icon {
+    float: right;
+    display: block;
+  }
+
+.background1{
+    background: url(https://media.giphy.com/media/3og0INtldac8gncQO4/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%; 
+    padding-top: 7%;
+    letter-spacing: 4px;
+}
+
+.background2:hover{
+    background: linear-gradient(to top left, #2d27ff 0%, #ff0a6c 100%);
+    opacity: 0.9;
+}
+
+button.asp{
+  border: 2px solid rgb(134, 108, 248);
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 500;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+button.asp:hover{
+  color: rgb(255, 255, 255);
+  transition-delay: 0.7s;
+  box-shadow: 0 0 10px  rgb(134, 108, 248), 0 0 20px rgb(134, 108, 248), 0 0 40px rgb(134, 108, 248), 0 0 80px rgb(97, 75, 197);
+}
+button.asp a span{
+  position: relative;
+  z-index: 100;
+}
+button.asp a:nth-child(2){
+  filter: hue-rotate(80deg);
+}
+
+.team{
+  background: linear-gradient(to top left, #2d27ff 0%, #ff0a6c 100%);
+  position: relative;
+}
+
+.faculty1:hover{
+  transition-delay: 0.4s;
+  box-shadow: 0 0 10px  rgb(134, 108, 248), 0 0 20px rgb(134, 108, 248), 0 0 40px rgb(134, 108, 248);
+}
+
+.faculty2:hover{
+  transition-delay: 0.4s;
+  box-shadow: 0 0 10px  rgb(248, 133, 143), 0 0 20px rgb(248, 133, 143), 0 0 40px rgb(248, 133, 143);
+}
+
+.faculty3:hover{
+  transition-delay: 0.4s;
+  box-shadow: 0 0 10px  rgb(108, 169, 248), 0 0 20px  rgb(108, 169, 248), 0 0 40px  rgb(108, 169, 248);
+}
+
+.faculty4:hover{
+  transition-delay: 0.4s;
+  box-shadow: 0 0 10px  rgb(224, 124, 255), 0 0 20px  rgb(224, 124, 255), 0 0 40px  rgb(224, 124, 255);
+}
+
+
+@media screen and (max-width:1025px) {
+    button.asp{
+      display: none;
+    }
+  }
+
+@media screen and (max-width:900px) {
+  .background1 h1{
+    font-size: 50px;
+  }
+  .background1 p{
+    font-size: 13px;
+  }
+  .background1{
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav.topnav{
+    display: none;
+  }
+  button.asp{
+    display: none;
+  }
+  header.header1{
+      height: 100px;
+  }
+  .background1 h1{
+    font-size: 40px;
+  }
+  .background1 p{
+    font-size: 11px;
+  }
+  img.image{
+      padding: 10px;
+  }
+}
+
