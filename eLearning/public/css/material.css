@@ -1,0 +1,49 @@
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 25%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 75%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1.5px solid rgb(110, 214, 214);
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: rgba(151, 155, 154, 0.747);
+  color: whitesmoke;
+}
+
+

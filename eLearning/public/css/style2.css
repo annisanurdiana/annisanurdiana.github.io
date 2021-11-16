@@ -1,0 +1,112 @@
+
+/* Style the active class, and buttons on mouse-over */
+.activee, .btnn:hover {
+    color: #2aaf40;
+  }
+
+.bgha  {
+    background: linear-gradient(to top, #ffffff 30%,  #adfae9  70%);
+}
+.bgpa  {
+  background: #adfae9 ;
+} 
+
+
+.bgpi{ background: linear-gradient(to top, #adfae9  0%, #ffffff 100%);
+}
+
+.bgpii{ background: linear-gradient(to top, #3eac9a 0%, #adfae9  100%);
+}
+
+.bgup{
+  background: linear-gradient(to right, #2b855b 0%, #31ebdb 100%);
+}
+.bguup{
+  background: linear-gradient(to right, #3eac79 0%, #31ebdb 100%);
+}
+.bgupp{
+  background: linear-gradient(to right, #2b855b 0%, #31ebdb 100%);
+}
+.bgupp:hover{
+  background: #2b855b;
+}
+
+
+/* STUDY IMG */
+
+.MyImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.55;
+}
+
+#myImg:hover {
+  transition-duration: 0.9s;
+  opacity: 0.9;
+}
+
+/* FLOATING BUTTOM */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #46c9c2;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, #2b855b 0%, #31ebdb 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #1a6b27;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.exlg{
+  background: linear-gradient(to top, #a7f8ed 0%, #ffffff 100%);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
