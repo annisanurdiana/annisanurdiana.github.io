@@ -1,0 +1,300 @@
+@import url('../css/fonts.css');
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*      Theme colors        */
+    --text-light : #686666da;
+    --bg-color: #140901;
+    --white: #f3f2cc;
+    --midnight: #f39821d5;
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #4e250a 0%, #f6f7f8 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+}
+
+
+/* ---------------- Global Classes ---------------*/
+
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+
+span{
+    font-family: var(--Abel);
+}
+
+
+.footgy{
+    color: white;
+}
+
+p{
+    font-family: var(--Lexend);
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4b2706;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    box-shadow: 0 9px rgb(0, 0, 0);
+    width: 350px;
+  }
+  
+  .button:hover {background-color: #8b6929}
+  
+  .button:active {
+    background-color: #8e7b3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* ------x------- Global Classes -------x-------*/
+
+/* --------------- navbar ----------------- */
+
+.nav{
+    background: #110a01;
+    padding: 0 2rem;
+    color: #ffffff;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{    
+    justify-content: space-between;
+}
+
+.collapse{
+    height: 30rem;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Lexend);
+    font-size: 1.6rem;
+}
+
+.nav .social{
+    padding: 1.4rem 0
+}
+
+.nav .social i{
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover{
+    color: #a1c4cf;
+}
+
+/* -------x------- navbar ---------x------- */
+
+
+/* ----------------- Main Content----------- */
+
+/* --------------- Site title ---------------- */
+main .site-title{
+    background: url('../assets/giphy14.gif');
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+main .site-title .site-background2{
+    padding-top: 9rem;
+    padding-left: 15rem;
+    text-align: center;
+    color: var(--white);
+}
+main .site-title .site-background3{
+    padding-top: 9rem;
+    padding-left: 15rem;
+    text-align: right;
+    color: var(--white);
+}
+
+main .site-title h1, h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+/* --------x------ Site title --------x------- */
+
+/* ---------------- Site Content ----------------*/
+main .container{
+    background: var(--bg-color);
+}
+main .site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background:url("../css/img/giphy\ \(7\).gif");
+    background-size: 100%;
+}
+
+ main .site-title .site-background .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    text-align: left;
+    
+  }
+  
+  main .site-title .site-background .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  main .site-title .site-background .container {
+    padding: 2px 16px;
+  }
+
+/* ----------------- Footer --------------------- */
+
+footer.footer{
+    height: 100%;
+    background:  #110a01;
+    position: relative;
+    padding: 10px;
+}
+
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+
+/* ---------x------- Footer ----------x---------- */
+
+/*              Viewport less then or equal to 1130px            */
+
+@media only screen and (max-width: 1130px){
+
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/*              Viewport less then or equal to 750px            */
+
+@media only screen and (max-width: 750px){
+    footer.footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+   
+/*        x      Viewport less then or equal to 520px       x     */
+
+@media only screen and (max-width: 520px){
+    main .blog{
+        height: 125vh;
+    }
+
+    footer.footer .container > div{
+        padding:  1rem .9rem !important;
+    }
+
+    footer .rights{
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+
+}
+
+

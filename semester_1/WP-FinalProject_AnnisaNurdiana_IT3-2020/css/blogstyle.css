@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+
+  }
+
+  
+/*----HeaderTime----*/
+.regnn {
+  background-color: #57793ec5;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.8;
+}
+
+.regnn:hover {
+  opacity: 1;
+  background-color: #000000;
+}
+
+.datetime {
+  text-align: center;
+  color: whitesmoke;
+}
+
+/*----More Details----*/
+.more {
+  background-color: #f5ffeac5;
+  color: rgb(6, 94, 6);
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 19%;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.more:hover{
+  opacity: 1;
+  background-color: #a8fcb6;
+
+}
+
+
+ /*----------------IMAGES SLIDE SHOW-----------------------*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+  /*--------------------END-------------------------*/
+
+
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background:#BFD5AE; ;
+  }
+
+  /* Add padding to containers */
+.containerr {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #57793E;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+  img {
+    height: 400px; 
+    width: 600px;
+  }
+
+  p {
+      font-size: 17px;
+      text-align: left;
+      margin: 5px;
+      font-family: 'Lato', sans-serif;
+  }
+   .h1, h2, h3, h4, h5 {
+       text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+   }
+  /* Header/Blog Title */
+  .header {
+    padding: 170px;
+    text-align: center;
+    background: #57793E;
+    background: url('img/pict1.jpg') no-repeat;
+    background-color:#57793E;
+    background-blend-mode: multiply;
+    opacity: 7;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 70px;
+    color: whitesmoke;
+  }
+
+  .header h6 {
+      font-size: 12px;
+      color: whitesmoke;
+  }
+
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #071100;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color:#9DC77F;
+    color: black;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color:#BFD5AE;
+    padding-left: 20px;
+  }
+  
+
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #243618;
+    margin-top: 20px;
+  }
+  
+  .footer h2{
+      color: whitesmoke;
+      
+  }
+
+  .footer div{
+    width: 1235px;
+    height: 12px;
+    background-color: rgb(245, 194, 136);
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes example {
+    0%   {background-color:#1cb884; left:0px; top:0px;}
+    25%  {background-color:#2dc8d3; left:47px; top:0px;}
+    75%  {background-color:#f7f765; left:00px; top:00px;}
+    100% {background-color:#0bad139d; left:0px; top:0px;}
+  }
+
+  /* Responsive layout - when the screen is less than 800px wide, 
+  make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn{   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, 
+  make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .datetime  {
+      float: none;
+      width: 100%;
+    }
+  }
